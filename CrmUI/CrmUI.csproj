@@ -15,6 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="CustomerForm - Копировать %282%29.resx">
+      <DependentUpon>CustomerForm.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CustomerForm - Копировать - Копировать.resx">
+      <DependentUpon>CustomerForm - Копировать.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Update="CustomerForm - Копировать.resx">
       <DependentUpon>CustomerForm.resx</DependentUpon>
     </EmbeddedResource>
