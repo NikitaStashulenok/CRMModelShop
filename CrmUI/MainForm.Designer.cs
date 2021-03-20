@@ -34,12 +34,12 @@ namespace CrmUI
             this.button_Seller = new System.Windows.Forms.Button();
             this.button_Check = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button_Customer_Add = new System.Windows.Forms.Button();
-            this.button_Seller_Add = new System.Windows.Forms.Button();
             this.button_Product_Add = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button_Customer_Add = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button_Seller_Add = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -95,6 +95,16 @@ namespace CrmUI
             this.panel1.Size = new System.Drawing.Size(110, 100);
             this.panel1.TabIndex = 4;
             // 
+            // button_Product_Add
+            // 
+            this.button_Product_Add.Location = new System.Drawing.Point(18, 64);
+            this.button_Product_Add.Name = "button_Product_Add";
+            this.button_Product_Add.Size = new System.Drawing.Size(75, 23);
+            this.button_Product_Add.TabIndex = 1;
+            this.button_Product_Add.Text = "Add";
+            this.button_Product_Add.UseVisualStyleBackColor = true;
+            this.button_Product_Add.Click += new System.EventHandler(this.button_Product_Add_Click);
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.button_Customer_Add);
@@ -103,23 +113,6 @@ namespace CrmUI
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(110, 100);
             this.panel2.TabIndex = 5;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.button_Seller_Add);
-            this.panel3.Controls.Add(this.button_Seller);
-            this.panel3.Location = new System.Drawing.Point(670, 65);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(110, 100);
-            this.panel3.TabIndex = 6;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.button_Check);
-            this.panel4.Location = new System.Drawing.Point(670, 276);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(110, 100);
-            this.panel4.TabIndex = 7;
             // 
             // button_Customer_Add
             // 
@@ -131,6 +124,15 @@ namespace CrmUI
             this.button_Customer_Add.UseVisualStyleBackColor = true;
             this.button_Customer_Add.Click += new System.EventHandler(this.button_Customer_Add_Click);
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button_Seller_Add);
+            this.panel3.Controls.Add(this.button_Seller);
+            this.panel3.Location = new System.Drawing.Point(670, 65);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(110, 100);
+            this.panel3.TabIndex = 6;
+            // 
             // button_Seller_Add
             // 
             this.button_Seller_Add.Location = new System.Drawing.Point(18, 64);
@@ -139,15 +141,15 @@ namespace CrmUI
             this.button_Seller_Add.TabIndex = 3;
             this.button_Seller_Add.Text = "Add\r\n";
             this.button_Seller_Add.UseVisualStyleBackColor = true;
+            this.button_Seller_Add.Click += new System.EventHandler(this.button_Seller_Add_Click);
             // 
-            // button_Product_Add
+            // panel4
             // 
-            this.button_Product_Add.Location = new System.Drawing.Point(18, 64);
-            this.button_Product_Add.Name = "button_Product_Add";
-            this.button_Product_Add.Size = new System.Drawing.Size(75, 23);
-            this.button_Product_Add.TabIndex = 1;
-            this.button_Product_Add.Text = "Add";
-            this.button_Product_Add.UseVisualStyleBackColor = true;
+            this.panel4.Controls.Add(this.button_Check);
+            this.panel4.Location = new System.Drawing.Point(670, 276);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(110, 100);
+            this.panel4.TabIndex = 7;
             // 
             // MainForm
             // 
