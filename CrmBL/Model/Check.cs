@@ -15,6 +15,7 @@ namespace CrmBL.Model
         public virtual Customer Customer { get; set; }
         public DateTime Created { get; set; }
         public virtual ICollection<Sell> Sells { get; set; }
+        public decimal Price { get; set; }
         public override string ToString()
         {
             return $"#{CheckId} from -> {Created:dd.MM.yyyy HH.mm}";
