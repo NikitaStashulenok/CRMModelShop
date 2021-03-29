@@ -25,7 +25,6 @@ namespace CrmBL.Model
             Seller = seller;
             Queue = new Queue<Cart>();
             IsModel = true;
-            MaxQueueLength = 10;
         }
         
         public void Enqueue(Cart cart)
@@ -105,11 +104,6 @@ namespace CrmBL.Model
             }
 
             return sum;
-        }
-
-        public override string ToString()
-        {
-            return $"Cash Desk #{Number}";
         }
     }
 }

@@ -40,7 +40,6 @@ namespace CrmUI
             this.panel3 = new System.Windows.Forms.Panel();
             this.button_Seller_Add = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.ModelingButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -91,7 +90,7 @@ namespace CrmUI
             // 
             this.panel1.Controls.Add(this.button_Product_Add);
             this.panel1.Controls.Add(this.button_Product);
-            this.panel1.Location = new System.Drawing.Point(134, 288);
+            this.panel1.Location = new System.Drawing.Point(106, 276);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(110, 100);
             this.panel1.TabIndex = 4;
@@ -110,7 +109,7 @@ namespace CrmUI
             // 
             this.panel2.Controls.Add(this.button_Customer_Add);
             this.panel2.Controls.Add(this.button_Customer);
-            this.panel2.Location = new System.Drawing.Point(134, 77);
+            this.panel2.Location = new System.Drawing.Point(106, 65);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(110, 100);
             this.panel2.TabIndex = 5;
@@ -129,7 +128,7 @@ namespace CrmUI
             // 
             this.panel3.Controls.Add(this.button_Seller_Add);
             this.panel3.Controls.Add(this.button_Seller);
-            this.panel3.Location = new System.Drawing.Point(698, 77);
+            this.panel3.Location = new System.Drawing.Point(670, 65);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(110, 100);
             this.panel3.TabIndex = 6;
@@ -147,25 +146,14 @@ namespace CrmUI
             // panel4
             // 
             this.panel4.Controls.Add(this.button_Check);
-            this.panel4.Location = new System.Drawing.Point(698, 288);
+            this.panel4.Location = new System.Drawing.Point(670, 276);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(110, 100);
             this.panel4.TabIndex = 7;
             // 
-            // ModelingButton
-            // 
-            this.ModelingButton.Location = new System.Drawing.Point(436, 456);
-            this.ModelingButton.Name = "ModelingButton";
-            this.ModelingButton.Size = new System.Drawing.Size(75, 23);
-            this.ModelingButton.TabIndex = 8;
-            this.ModelingButton.Text = "button1";
-            this.ModelingButton.UseVisualStyleBackColor = true;
-            this.ModelingButton.Click += new System.EventHandler(this.ModelingButton_Click);
-            // 
             // MainForm
             // 
             this.ClientSize = new System.Drawing.Size(945, 522);
-            this.Controls.Add(this.ModelingButton);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -192,7 +180,6 @@ namespace CrmUI
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button_Seller_Add;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button ModelingButton;
     }
 }
 
